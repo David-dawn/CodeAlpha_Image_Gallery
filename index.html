@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official Website of Dave Flexbox Photo Gallery">
+    <title>Flexbox Photo Gallery</title>
+    <link rel="stylesheet" href="Style.CSS">
+    <link rel="icon" href="pictures/photo gallery icon.png" type="image/icon">
+</head>
+<body>
+    <header class="header">
+        <h1>Image Gallery</h1>
+    </header>
+
+    <div class="gallery">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg" alt="first cat">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg" alt="second cat">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg" alt="third cat">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg" alt="fourth cat">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg" alt="fifth cat">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg" alt="sixth cat">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg" alt="seventh cat">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg" alt="eighth cat">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg" alt="ninth cat">
+    </div>
+
+    <!-- Modal for viewing images -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
